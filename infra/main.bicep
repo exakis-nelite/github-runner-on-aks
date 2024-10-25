@@ -17,16 +17,27 @@ param adminusername string
 @secure()
 param sshpublickey string
 
+@description('Organization Tag Value')
+param organization string
+
+@description('Department Tag Value')
+param department string
+
+@description('Usage Tag Value')
+param usage string
+
+@description('Owner Tag Value')
+param owner string
 
 /* RESOURCE GROUP */
 resource rg 'Microsoft.Resources/resourceGroups@2020-06-01' = {
   name: resourcegroup
   location: location
   tags: {
-    Owner: 'yannick.willi@exakis-nelite.com'
-    Organization: 'PHF'
-    Department: 'ESC'
-    Usage: 'POC'
+    Owner: owner
+    Organization: organization
+    Department: department
+    Usage: usage
   }
 }
 

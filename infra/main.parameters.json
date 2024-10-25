@@ -3,7 +3,7 @@
   "contentVersion": "1.0.0.0",
   "parameters": {
     "resourcegroup": {
-      "value": "rg-weu-phf-poc-aksrunners"
+      "value": "rg-weu-runners"
     },
     "adminusername": {
       "value": "aksadmin"
@@ -13,6 +13,18 @@
     },
     "sshpublickey": {
       "value": "ssh-rsa"
+    },
+    "owner": {
+      "value": "yannick.willi@exakis-nelite.com"
+    },
+    "organization": {
+      "value": "PHF"
+    },
+    "department": {
+      "value": "ESC"
+    },
+    "usage": {
+      "value": "POC"
     }
   }
 }
