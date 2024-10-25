@@ -2,8 +2,8 @@
 # This is a basic workflow to help you get started with Actions
 name: IaC Deployment
 env:
-  RESOURCE_GROUP: 'aksrunners-rg'
-  CLUSTER_NAME: 'aksrunners-aks'
+  RESOURCE_GROUP: 'rg-weu-phf-poc-aksrunners'
+  CLUSTER_NAME: 'aks-runners'
   ADMIN_USERNAME: 'aksadmin'
   REGION: 'westeurope'
   REGISTRY: ghcr.io
