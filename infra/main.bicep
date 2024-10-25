@@ -22,6 +22,12 @@ param sshpublickey string
 resource rg 'Microsoft.Resources/resourceGroups@2020-06-01' = {
   name: resourcegroup
   location: location
+  tags: {
+    Owner: 'yannick.willi@exakis-nelite.com'
+    Organization: 'PHF'
+    Department: 'ESC'
+    Usage: 'POC'
+  }
 }
 
 module aks 'resources/aks.bicep' = {
