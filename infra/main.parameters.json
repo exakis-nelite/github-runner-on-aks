@@ -3,13 +3,13 @@
   "contentVersion": "1.0.0.0",
   "parameters": {
     "resourcegroup": {
-      "value": "aksrunners-rg"
+      "value": "rg-weu-phf-poc-aksrunners"
     },
     "adminusername": {
       "value": "aksadmin"
     },
     "aksclustername": {
-      "value": "aksrunners-aks"
+      "value": "aks-runners"
     },
     "sshpublickey": {
       "value": "ssh-rsa"
